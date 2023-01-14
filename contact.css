@@ -1,0 +1,77 @@
+body{
+    background-color: #ddcfb4;
+}
+
+.container {
+
+    width: 32.25em;
+    background-color: #efefef;
+    padding: 5em 2.75em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.7em;
+    box-shadow: 0 1em 4em rgba(71, 50, 4, 0.3);
+}
+.box  input{
+        font-size: 16px;
+        display: block;
+        font-family: 'Rubik', sans-serif;
+        width: 90%;
+        padding: 10px 1px;
+        border: 0;
+        border-bottom: 1px solid #747474;
+        outline: none;
+        -webkit-transition: all .2s;
+        transition: all .2s;
+}
+#Message  {
+        font-size: 16px;
+        display: block;
+        font-family: 'Rubik', sans-serif;
+        width: 100%;
+        padding: 10px 1px;
+        border: 0;
+        border-bottom: 1px solid #747474;
+        outline: none;
+        -webkit-transition: all .2s;
+        transition: all .2s;    
+}
+.error {
+    color: red;
+}
+.title {
+    text-align: center;
+}
+#btnClickMe {
+    border: none;
+    outline: none;
+    display: block;
+}
+input {
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 2em;
+    padding: 1em 0 0.5em 0.5em;
+    border-bottom: 2px solid #888;
+}
+#btnClickMe {
+    position: relative;
+    left: 0;
+    font-size: 1.1em;
+    width: 7em;
+    background-color: darkgray;
+    color: #efefef;
+    padding: 0.8em 0;
+    margin-top: 2em;
+    border-radius: 0.3em;
+}
+form {
+    margin-top: 50px;
+}
+#btnClickMe:hover {
+    background-color: #888;
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}

@@ -1,0 +1,52 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Login</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="loginstyle.css">
+        <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    </head>
+    <body>
+            <section id="header">
+                    <a href="#"><img src="logo.png" width="80px" class="logo" alt=""></a>
+                    <div>
+                        <ul id="navbar">
+                            <li><a href="MYMAIN.html">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a class="active" href="loginpage.html ">Login</a></li>
+                            <li><a href="Sign-up.html">Sign up</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="cart.html"><img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" class="cart1" width="26px" height="29px"></a></li>
+                        </ul>
+                    </div>
+                    <div id="mobile">
+                        <i id="bar">&#10225;</i>
+                        <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                    </div>
+                </section>
+        <form name="f1" class="porm" id="form1" action="shop.html" onsubmit="return validate()">  
+          <div id="backnisya">
+            <table id="lamesa">
+            <tr id="taas">
+                <td>Name:</td><td><input type="text" name="name"/>  <br />
+            <span id="namelocation" style="color:red"></span
+                ></td
+                ></tr> 
+            <tr>
+                <td>Password:</td><td><input type="password" name="password"/>  <br />
+            <span id="passwordlocation" style="color:red"></span>
+            
+        </td></tr>
+            <tr><td colspan="2">
+                <input class="btn" type="submit" value="login"/>  </td></tr>
+            </table> 
+            </div> 
+        
+    </form> 
+        
+    </body>
+    </html>
+    <script src="login.js"></script>    
